@@ -729,7 +729,7 @@ html[data-theme="light"] .certificate-issuer {
 .gap-4 { gap: 1rem; }
 .flex-wrap { flex-wrap: wrap; }
 .grid { display: grid; }
-.hidden { display: none; }
+.hidden { display: none !important; }
 .block { display: block; }
 .inline-block { display: inline-block; }
 .overflow-hidden { overflow: hidden; }
