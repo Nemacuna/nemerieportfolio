@@ -1,5 +1,5 @@
 :root {
-    --bg: #ffffff;
+    --bg: #A3BCCB;
     --bg-alt: #f4f6fb;
     --surface: #ffffff;
     --text: #2c3e50;
@@ -120,6 +120,15 @@ img {
     font-weight: 700;
     color: var(--text);
     letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
 }
 
 .brand i {
